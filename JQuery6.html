@@ -6,25 +6,14 @@
 
     <script>
     $(document).ready(function(){
-    $("button").click(function(){
-        $("ul li:first").hide();
+    $("#demo").mouseleave(function(){
+       alert("YOu enter demo");
         });
     });
         </script>
 </head>
 <body>
-    <p >This is first list</p>
-    <ul>
-   <li>Milk</li>
-    <li>Coffee</li>
-    <li>Tea</li>
-</ul>
-<p>list 2</p>
-<ul>
-<li>Milk2</li>
-<li>Coffee2</li>
-<li>Tea2</li>
-</ul>
-<button>click me</button>
+    <p id="demo">This is para</p>
+    
 </body>
 </html>
