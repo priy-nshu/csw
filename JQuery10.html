@@ -6,14 +6,15 @@
 
     <script>
     $(document).ready(function(){
-    $("#demo").mouseleave(function(){
-    alert("YOu enter demo");
+    $("button").click(function(){
+    $("p").toggle();
         });
     });
         </script>
 </head>
 <body>
-    <p id="demo">This is para</p>
-    
+    <button>toggle</button>
+    <p >This is para</p>
+    <p>This is another</p>
 </body>
 </html>
